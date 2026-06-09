@@ -31,8 +31,8 @@ def get_state_data(state_name):
             "RCS": [0] * 23,
             "Others": [0] * 23
         }
-                elif state_name == "Jammu and Kashmir":
-                       data = {       
+    elif state_name == "Jammu and Kashmir":
+        data = {       
             "District": [
                 'DODA', 'JAMMU', 'KATHUA', 'KISHTWAR', 'PUNCH', 
                 'RAJAURI', 'RAMBAN', 'RIASI', 'SAMBA', 'UDHAMPUR', 
@@ -48,8 +48,8 @@ def get_state_data(state_name):
 
             "Others": [0]*20 ,
         }
-                        elif state_name == "Uttar Pradesh":
-                                 data = {
+    elif state_name == "Uttar Pradesh":
+        data = {
             "District": [
                 'AGRA', 'ALIGARH', 'ETAH', 'FIROZABAD', 'HATHRAS', 'KASGANJ', 'MAINPURI', 'MATHURA',
                 'AMROHA', 'BAREILLY', 'BIJNOR', 'BUDAUN', 'PILIBHIT', 'RAMPUR', 'SAMBHAL', 'SHAHJAHANPUR',
@@ -64,22 +64,22 @@ def get_state_data(state_name):
             ],  
    
                "Colour_Frame": [
-                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 400,
+                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0
             ],
 
-            "AM/NS": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120,
+            "AM/NS": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0],
             
-               "APL Apollo": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80,
+               "APL Apollo": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0],
-            "PROMPT": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200,
+            "PROMPT": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -87,15 +87,15 @@ def get_state_data(state_name):
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              "RCS": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200,
+              "RCS": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0],
             
             "Others": [0]*69,
         }
-                         elif state_name == "Haryana":       
-                                 data = { 
+    elif state_name == "Haryana":       
+        data = { 
             "District": [
                 'FARIDABAD', 'GURUGRAM', 'MAHENDRAGARH', 'NUH', 'PALWAL', 'REWARI', 
                 'BHIWANI', 'FATEHABAD', 'HISAR', 'JIND', 'SIRSA', 'AMBALA', 'KAITHAL', 
@@ -114,8 +114,8 @@ def get_state_data(state_name):
    
 
         }
-                         elif state_name == "Himachal Pradesh":
-                               data = {  
+    elif state_name == "Himachal Pradesh":
+        data = {  
             "District": [
                 'BILASPUR','CHAMBA','HAMIRPUR','KANGRA','KULLU','LAHUL & SPITI','MANDI','UNA','KINNAUR','SHIMLA','SIRMAUR','SOLAN'
             ],
@@ -127,8 +127,8 @@ def get_state_data(state_name):
               "RCS": [0]*12,
             "Others": [0]*12,
         }
-                           elif state_name == "Uttarakhand":
-                                  data = { 
+    elif state_name == "Uttarakhand":
+        data = { 
             "District": [
                 'CHAMOLI', 'DEHRADUN', 'HARIDWAR', 'PAURI GARHWAL', 'RUDRA PRAYAG', 
                 'TEHRI GARHWAL', 'UTTAR KASHI', 'ALMORA', 'BAGESHWAR', 'CHAMPAWAT', 
@@ -143,6 +143,30 @@ def get_state_data(state_name):
             "Others": [0]*13,
 
                 }
+    elif state_name == "Delhi":
+       data = {
+        "District": [
+            "CENTRAL",
+            "EAST",
+            "NEW DELHI",
+            "NORTH EAST",
+            "NORTH WEST",
+            "SHAHADARA",
+            "SOUTH",
+            "SOUTH EAST",
+            "SOUTH WEST",
+            "WEST",
+            "NAZUL",
+            "NORTH"
+        ],
+        "Colour_Frame": [0, 0, 400, 0, 0, 0, 0, 0, 0, 0,0, 0],
+        "AM/NS": [0, 0, 120, 0, 0, 0, 0, 0, 0, 0,0, 0],
+        "APL Apollo": [0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "PROMPT": [0, 0, 200, 0, 0, 0, 0, 0, 0, 0 , 0, 0],
+        "HI TECH": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "RCS": [0, 0, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "Others": [0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
     
     return pd.DataFrame(data)
 
@@ -173,14 +197,34 @@ def get_geojson(state_name):
         'NAINIT>L':'NAINITAL',
         'PITHOR>GARH':'PITHORAGARH'
     })
-    state_gdf['district_upper'] = state_gdf['district'].str.upper()
+    state_gdf['district'] = state_gdf['district'].str.upper().replace({
+    # ... your existing replacements ...
+    
+    # ADD THESE for Delhi:
+    'NORTH DELHI': 'NORTH',
+    'CENTRAL DELHI': 'CENTRAL',
+    'EAST DELHI': 'EAST',
+    'NEW DELHI': 'NEW DELHI',
+    'NORTH EAST DELHI': 'NORTH EAST',
+    'NORTH WEST DELHI': 'NORTH WEST',
+    'SHAHDARA': 'SHAHADARA',        # ← common spelling variant
+    'SOUTH DELHI': 'SOUTH',
+    'SOUTH EAST DELHI': 'SOUTH EAST',
+    'SOUTH WEST DELHI': 'SOUTH WEST',
+    'WEST DELHI': 'WEST',
+})
+    state_gdf['district_upper'] = (
+    state_gdf['district']
+    .str.upper()
+    .str.strip()
+    )
     return state_gdf
 
 # ---------------------------------------------------------
 # 2. SELECTION & PROCESSING
 # ---------------------------------------------------------
 # Sidebar Selections
-target_state = st.sidebar.selectbox("Select State", ["Uttarakhand","Himachal Pradesh","Haryana","Uttar Pradesh","Jammu and Kashmir","Punjab","Gujarat", "Maharashtra"])
+target_state = st.sidebar.selectbox("Select State", ["Uttarakhand","Delhi","Himachal Pradesh","Haryana","Uttar Pradesh","Jammu and Kashmir","Punjab","Gujarat", "Maharashtra"])
 target_brand = st.sidebar.selectbox("Select Target Brand", [ "Colour_Frame", "AM/NS", "APL Apollo","PROMPT", "HI TECH", "RCS", "Others"])
 
 df = get_state_data(target_state)
@@ -230,7 +274,10 @@ state_distributor_configs = {
     },
     "Uttarakhand": {
         'BAGESHWAR': 'Distributor A'
-    }  
+    },
+    "Delhi": {
+       
+    },
 }
 
 # 2. Get the specific lookup for the selected state
@@ -340,7 +387,13 @@ state_ranges = {
         (50, '25–50 MT', '#93c5fd'),
         (100, '50–100 MT', '#3b82f6'),
         (float('inf'), '100+ MT', '#1e40af')
-    ]
+    ],
+    "Delhi": [
+    (50, '0–50 MT', '#dbeafe'),
+    (200, '50–200 MT', '#93c5fd'),
+    (400, '200–400 MT', '#3b82f6'),
+    (float('inf'), '400+ MT', '#1e40af')
+   ]
 }
 
 # 2. Updated color function
@@ -360,8 +413,16 @@ def get_s_color(share):
 
 df['market_color'] = df['Market_Size'].apply(lambda x: get_m_color(x, target_state))
 df['share_color'] = df[share_col_name].apply(get_s_color)
+merged = state_districts.merge( df, left_on='district_upper', right_on='District', how='left'
+)
 
-merged = state_districts.merge(df, left_on='district_upper', right_on='District', how='left')
+# merged[target_brand] = merged[target_brand].fillna(0)
+# merged['Market_Size'] = merged['Market_Size'].fillna(0)
+# merged[share_col_name] = merged[share_col_name].fillna(0)
+
+# merged['district'] = merged['district'].fillna("")
+# merged['district_upper'] = merged['district_upper'].fillna("")
+
 
 # You can define a dictionary for Gujarat Clusters here
 cluster_config = {
@@ -431,11 +492,27 @@ cluster_config = {
         'RUDRA PRAYAG':'Garhwal', 'TEHRI GARHWAL':'Garhwal', 'UTTAR KASHI':'Garhwal',
         'ALMORA':'Kumaon', 'BAGESHWAR':'Kumaon', 'CHAMPAWAT':'Kumaon', 
         'NAINITAL':'Kumaon', 'PITHORAGARH':'Kumaon', 'UDHAM SINGH NAGAR':'Kumaon'
-    }
+    },
+    "Delhi": {
+    'CENTRAL': 'Delhi',
+    'EAST': 'Delhi',
+    'NEW DELHI': 'Delhi',
+    'NORTH': 'Delhi',
+    'NORTH EAST': 'Delhi',
+    'NORTH WEST': 'Delhi',
+    'SHAHADARA': 'Delhi',
+    'SOUTH': 'Delhi',
+    'SOUTH EAST': 'Delhi',
+    'SOUTH WEST': 'Delhi',
+    'WEST': 'Delhi',
+    'NAZUL' : 'Delhi'
+}
 }
 
 # current_cluster_map = cluster_config.get(target_state, {})
 # merged['cluster'] = merged['district_upper'].map(current_cluster_map)
+
+
 # clusters = merged.dissolve(by='cluster')
 current_cluster_map = cluster_config.get(target_state, {})
 
@@ -469,6 +546,8 @@ for _, row in merged.iterrows():
         geom = row.geometry
         polys = [geom] if geom.geom_type == 'Polygon' else geom.geoms
         for poly in polys:
+            if poly.area < 0.001:  # ← ADD THIS to skip tiny artifact fragments
+                continue         
             x, y = poly.exterior.xy
             fig.add_trace(go.Scatter(
                 x=list(x), y=list(y),
@@ -482,18 +561,36 @@ for _, row in merged.iterrows():
             ))
 
 # B. CLUSTER OUTLINES
-for _, row in clusters.iterrows():
-    geom = row.geometry
-    polys = [geom] if geom.geom_type == 'Polygon' else geom.geoms
-    for poly in polys:
-        x, y = poly.exterior.xy
-        fig.add_trace(go.Scatter(
-            x=list(x), y=list(y),
-            line=dict(color="#1e293b", width=2.5),
-            hoverinfo='skip',
-            showlegend=False,
-            mode='lines'
-        ))
+#for _, row in clusters.iterrows():
+#    geom = row.geometry
+#    polys = [geom] if geom.geom_type == 'Polygon' else geom.geoms
+#    for poly in polys:
+#        x, y = poly.exterior.xy
+#        fig.add_trace(go.Scatter(
+#            x=list(x), y=list(y),
+#            line=dict(color="#1e293b", width=2.5),
+#            hoverinfo='skip',
+#            showlegend=False,
+#            mode='lines'
+#        ))
+# B. CLUSTER OUTLINES (skip if only one cluster, e.g. Delhi)
+if len(clusters) > 1:
+    for _, row in clusters.iterrows():
+        geom = row.geometry
+        polys = [geom] if geom.geom_type == 'Polygon' else geom.geoms
+        for poly in polys:
+            # Exterior
+            x, y = poly.exterior.xy
+            fig.add_trace(go.Scatter(
+                x=list(x), y=list(y),
+                line=dict(color="#1e293b", width=2.5),
+                hoverinfo='skip',
+                showlegend=False,
+                mode='lines'
+            ))
+            # Skip interiors/holes to avoid dot artifacts
+            # for interior in poly.interiors:  ← do NOT draw these
+
 
 # C. LABELS AND BOXES
 annotations = []
@@ -521,7 +618,8 @@ for _, row in merged.iterrows():
             "Uttar Pradesh": -0.05,
             "Haryana":0,
             "Himachal Pradesh":0,
-            "Uttarakhand":0   
+            "Uttarakhand":0 ,
+            "Delhi" : -0.03
         }
         # Get the offset for the current state, default to -0.1 if not found
         current_offset = state_y_offsets.get(target_state, -0.1)
@@ -574,7 +672,7 @@ total_brand_pct = (total_brand_vol / total_mkt_size * 100) if total_mkt_size > 0
 annotations.append(dict(
     x=0.99, y=0.01, xref="paper", yref="paper",
     text=(
-        f"<b>Total Mass Market</b><br>"
+        f"<b>Total Thicker Market</b><br>"
         f"<b><span style='font-size:20px;color:#1e40af;'>{total_mkt_size} MT</span></b><br><br>"
         f"<b>JSW {target_brand} Share</b><br>"
         f"<b><span style='font-size:18px;color:#1b5e20;'>{total_brand_vol} MT ({total_brand_pct:.0f}%)</span></b>"
@@ -738,7 +836,7 @@ focus_df = merged[merged[share_col_name] < 50].copy()
 
 if not focus_df.empty:
     # 1. Calculate Aggregates
-    cluster_stats = focus_df.groupby('cluster').agg({
+    cluster_stats = merged.groupby('cluster').agg({
         target_brand: 'sum',
         'Market_Size': 'sum'
     }).reset_index()
@@ -770,7 +868,14 @@ if not focus_df.empty:
         current_counts[c_name] = current_counts.get(c_name, 0) + 1
         
         # Get stats for this cluster (calculated from focus_df only)
-        stats = cluster_stats[cluster_stats['cluster'] == c_name].iloc[0]
+        
+        stats = cluster_stats.loc[cluster_stats['cluster'] == c_name].iloc[0]
+
+        #if len(stats_df) > 0:
+        #   stats = stats_df.iloc[0]
+        #else:
+        #    new_labels.append("")
+        #   continue
         
         # Line 1: Cluster Name (Total Market Size)
         line1 = (
